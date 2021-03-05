@@ -1,4 +1,17 @@
 /* Add CSS styles here! */
-body {
-  font-family: sans-serif;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+html {
+    height: 100%;
 }
+
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
